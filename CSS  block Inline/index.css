@@ -1,0 +1,24 @@
+/* block inline */
+/* Horizontal centre */
+body {
+  /* text-align: center; */
+}
+
+.block {
+  background: blue;
+  color: white;
+  width: 150px;
+  margin: 10px auto;
+}
+
+.inline {
+  background: red;
+  color: white;
+}
+
+h1 {
+  background: black;
+  color: white;
+  margin: 20px;
+  padding: 20px;
+}

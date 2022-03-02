@@ -1,0 +1,106 @@
+#heading {
+  color: rgb(64, 7, 7);
+}
+
+#heading2 {
+  color: red;
+}
+.para {
+  background-color: blue;
+}
+h1,
+h2 {
+  color: blue;
+}
+
+/* color properties */
+/* background-color */
+#first {
+  background-color: yellow;
+  color: red;
+}
+
+#second {
+  background: rgb(64, 7, 7);
+  color: yellow;
+}
+/* RGBA 0-1 opacity/transoarency */
+#third {
+  color: brown;
+  background: rgba(100, 89, 12, 0.4);
+}
+body {
+  background: rgba(90, 70, 55, 0.35);
+}
+
+/* font-size, width, height, pixels */
+#four {
+  font-size: 20px;
+  width: 80px;
+  height: 80px;
+  background: yellowgreen;
+}
+
+/* Percent Values - Relative */
+.inner {
+  background: yellow;
+  width: 50%;
+  height: 50%;
+}
+
+.outer {
+  background: red;
+  width: 200px;
+  height: 200px;
+}
+
+/* vh - height - percent of the screen
+vw - width - percentage of the screen */
+
+/* calc()
+perform math operations
+mix and match values */
+* {
+  margin: 0;
+}
+.navbar {
+  background: blue;
+  height: 100px;
+  color: white;
+  font-size: 3rem;
+}
+
+/* font-weight,font-family, text-align, text-indent */
+#fifth {
+  font-family: "Dancing Script", cursive;
+  font-weight: bold;
+}
+#paragraph {
+  font-family: "Roboto", sans-serif;
+  text-align: center;
+  font-weight: bolder;
+  text-indent: 50px;
+}
+
+/* line height, 
+letter sapcing, 
+word spacig,
+text-transform, 
+text-decoration */
+.firstpara {
+  line-height: 28px;
+}
+.secondpara {
+  letter-spacing: 0.4rem;
+  text-transform: uppercase;
+}
+.thirdpara {
+  word-spacing: 0.8rem;
+  text-transform: lowercase;
+  text-decoration: overline;
+  line-height: 46px;
+}
+#text {
+  text-decoration: none;
+  font-size: 30px;
+}
