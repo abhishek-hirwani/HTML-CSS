@@ -1,0 +1,23 @@
+div {
+  background: red;
+  margin: 10px;
+
+  color: white;
+}
+
+.none {
+  display: none;
+}
+
+.opacity-1 {
+  opacity: 1;
+}
+.opacity-2 {
+  opacity: 0.5;
+}
+.opacity-3 {
+  opacity: 0;
+}
+.Visibility {
+  visibility: hidden;
+}

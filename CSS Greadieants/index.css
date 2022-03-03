@@ -1,0 +1,19 @@
+div {
+  height: 150px;
+  width: 150px;
+  margin: 10px;
+}
+
+.one {
+  background: linear-gradient(red, blue);
+}
+.two {
+  background: linear-gradient(to top, red, blue, green, black);
+}
+
+.three {
+  background: linear-gradient(315deg, red, green);
+}
+.four {
+  background: linear-gradient(to top right, red, green);
+}
